@@ -6,7 +6,7 @@
 #
 
 cmake_minimum_required (VERSION 2.8)
-project (TUIO)
+project (TUIO2)
 
 if(NOT CMAKE_DEBUG_POSTFIX)
   set(CMAKE_DEBUG_POSTFIX "d")
@@ -139,7 +139,7 @@ endif (${CMAKE_SYSTEM_NAME} MATCHES "Windows")
 #Finally add all the targets here
 ############################################################
 
-add_library(TUIO ${SOURCEFILES})
+add_library(TUIO2 ${SOURCEFILES})
 
 #------------------------------------------
 # Install Target
